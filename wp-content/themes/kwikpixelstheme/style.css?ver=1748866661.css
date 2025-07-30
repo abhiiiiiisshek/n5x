@@ -1,0 +1,265 @@
+/*
+Theme Name: KwikPixels
+Theme URI: https://kwikpixels.in/
+Author: Sakib Khan Pathan
+*/
+.full-width-template{
+	padding-top:130px;
+}
+.entry-content-page{
+	padding:20px 0 50px 0;
+}
+.entry-content-page p, .entry-content-page ul {
+    font-family: roboto;
+    line-height: 1.4;
+}
+.entry-content-page ul{
+   list-style:disc;
+	margin-left:1rem;
+	margin-top:10px;
+}
+.entry-content-page ul li{
+	margin-bottom:10px;
+}
+
+.mobile-nav-open{
+	border-radius:50px 50px 0 !important;
+}
+.mobile-nav{
+	position:absolute;
+	right:0;
+	background-color:#fff;
+	padding:20px;
+	box-shadow:0 10px 15px 0px rgb(56 0 189 / 20%);
+}
+.mobile-nav li.sbmenu.rpdropdown {
+    border-bottom: 1px solid #e8e8e8;
+   border-top: 1px solid #e8e8e8;
+}
+.mobile-nav a{
+	color:#000;
+	padding:8px 0;
+	display:block;
+}
+.cont-sec-3 input[type="submit"] {
+    width: auto;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0;
+    border: none;
+    padding: 10px 110px 10px 20px;
+    background: #4b0979 url(images/ar-wt.png) no-repeat 150px center;
+    cursor: pointer;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+	margin:6px;
+}
+.sec-majento-4 .proj-slider .owl-nav{
+	margin-top:20px;
+}
+.sec-majento-4 .proj-slider{
+	margin:auto !important;
+	margin-top:20px !important;
+}
+.main-header {
+	border-bottom:none !important;
+}
+
+li.contact-show {
+    display: none !important;
+}
+.sec-banner {
+	padding-top: 58px !important;
+}
+
+.eff{
+    border-top: 50px solid #16549E;
+    border-left: 78vw solid transparent;
+    border-right: 22vw solid transparent;
+	margin-bottom:30px;
+	animation:eff 4s infinite;
+}
+@keyframes eff{
+	0%{
+		 border-top-color:#16549E;
+		border-left: 78vw solid transparent;
+        border-right: 22vw solid transparent;
+	}
+	50%{
+		border-top-color:#DE0202;
+		border-left: 22vw solid transparent;
+        border-right: 78vw solid transparent;
+	}
+	100%{
+		 border-top-color:#16549E;
+		border-left: 78vw solid transparent;
+        border-right: 22vw solid transparent;
+	}
+}
+
+.eff2{
+	margin-top:40px;
+    border-bottom: 50px solid #DE0202;
+    border-left: 22vw solid transparent;
+    border-right: 78vw solid transparent;
+	animation:eff2 4s infinite;
+}
+
+@keyframes eff2{
+	0%{
+		 border-bottom-color:#DE0202;
+		border-left: 22vw solid transparent;
+        border-right: 78vw solid transparent;
+	}
+	50%{
+		border-bottom-color:#16549E;
+		border-left: 78vw solid transparent;
+        border-right: 22vw solid transparent;
+		
+	}
+	100%{
+		border-bottom-color:#DE0202;
+		border-left: 22vw solid transparent;
+        border-right: 78vw solid transparent;
+	}
+}
+/*
+.sec-pricing .cdiv:after{
+	background: url(/wp-content/uploads/2021/05/Asset-16@4x-8.png) no-repeat !important;
+	background-size:contain !important;
+	top: -15px !important;
+    left: 5px !important;
+    width: 90px !important;
+    height: 90px !important;
+	}
+.sec-pricing .seller .cdiv:before {
+    background: url(/wp-content/uploads/2021/05/Asset-13@4x-8.png) no-repeat !important;
+	background-size:contain !important;
+	top: -10px !important;
+    height: 79px !important;
+}
+.sec-pricing .pdiv:after{
+	background: url(/wp-content/uploads/2021/05/Asset-16@4x-8.png) no-repeat !important;
+	background-size:contain !important;
+	top: -15px !important;
+    left: 5px !important;
+    width: 90px !important;
+    height: 90px !important;
+}
+.sec-pricing .best .pdiv:before{
+	background: url(/wp-content/uploads/2021/05/Asset-14@4x-8.png) no-repeat !important;
+	background-size:contain !important;
+}
+*/
+.sec-mile .cimg{
+	height: 470px;
+	 overflow: hidden;
+}
+
+.sec-port .main {
+    height: 470px;
+    overflow: hidden;
+}
+.sec-port .main .pic img{
+	height:auto !important;
+}
+.dsk-logo .nav-brand img {
+    max-height: 41px;
+}
+.main-header .container-fluid.m-pad {
+    background: #fff;
+    border-radius: 50px;
+	-webkit-box-shadow: 0 10px 15px 0px rgb(56 0 189 / 20%);
+    box-shadow: 0 10px 15px 0px rgb(56 0 189 / 20%);
+}
+.sec-2 .main{
+	border-right-color:#fff !important;
+	border-left-color:#fff !important;
+}
+.dsk-logo {
+	margin-left: 14px;align-content
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none !important;
+    color: none !important;
+}
+.header-heading h1{
+	    background: linear-gradient(to right, #16549E 0%, #DE0202 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bg-btn, .bg-btn2, .bg-btn3,.order {
+background: #0700b8 !important;
+background: -moz-linear-gradient(left, #16549E 0%, #DE0202 100%) !important;
+background: -webkit-linear-gradient(left, #16549E 0%,#DE0202 100%) !important;
+background: linear-gradient(to right, #16549E 0%,#DE0202 100%) !important;
+}
+.btn-round-.trngl:after{
+	border-top-color:#16549E !important;
+}
+/*.sec-pricing .pdiv .top,.sec-pricing .cdiv .ctop{
+	background: #16549E !important;
+}
+.sec-2{
+	background: #c20000 !important;
+}
+.sec-pricing .pdiv .btm ul li,.sec-pricing .cdiv .cbtm ul li{
+	padding-bottom:11px !important;
+}
+.sec-pricing .pdiv .btm ul li:before ,.sec-pricing .cdiv .cbtm ul li:before{
+    color: #16549E;
+	top:0px !important;
+    border: 1px solid #16549E;
+    border-radius: 50%;
+    padding: 1px;
+}*/
+.style-14{
+	overflow-y:auto !important;
+}
+.style-14::-webkit-scrollbar{
+    width: 7px !important;
+}
+.service-section .s-block:hover{
+	background:#DE0202 !important;
+}
+.service-section .s-block{
+	min-height:350px;
+	border-radius:0;
+}
+.service-section .s-block a{
+	color:#fff !important;
+}
+
+.service-section  .shape-loc:first-child .s-block{
+	border-radius:110px 0 0 10px;
+}
+.service-section .shape-loc:last-child .s-block{
+	border-radius:0 10px 110px 0;
+}
+.service-section .s-block:hover p,.service-section .s-block:hover h4{
+	color:#fff !important;
+}
+@media only screen and (max-width: 520px){
+	.main-header {
+    padding: 0 5px !important;
+    }
+	.main-header .container-fluid.m-pad{
+		padding-right:12px;
+	}
+}
+@media (max-width:767px){
+	.dsk-logo {
+		line-height:70px;
+	}
+	.scrollbar {
+		height:auto !important;
+	    max-height: 250px;
+	}
+}
+// Sahil custome css
+body .sec-pricing .pdiv:after{
+	display:none !important;
+}
